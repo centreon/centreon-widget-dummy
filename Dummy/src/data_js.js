@@ -22,5 +22,5 @@ function loadTop10() {
 }
 
 jQuery(function() {
-        loadTop10();
+	loadTop10();
 });
