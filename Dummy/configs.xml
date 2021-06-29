@@ -6,8 +6,14 @@
         <description>Dummy Widget</description>
         <version>1.0</version>
         <keywords>centreon, widget, dummy</keywords>
-        <screenshot></screenshot>
-        <thumbnail>./widgets/Dummy/resources/logo1.png</thumbnail>
+        <stability>beta</stability>
+        <last_update>2019-02-13</last_update>
+        <release_note>https://github.com/centreon/centreon-dummy/releases</release_note>
+        <thumbnail>./widgets/Dummy/resources/logo1.png</thumbnail> <!-- deprecated -->
+        <screenshot>./widgets/Dummy/resources/logo2.png</screenshot>
+        <screenshots>
+                <screenshot src="./widgets/Dummy/resources/logo2.png"/>
+        </screenshots>
         <url>./widgets/Dummy/index.php</url>
         <autoRefresh>10</autoRefresh>
 	<preferences>
